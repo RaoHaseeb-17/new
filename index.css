@@ -1,0 +1,90 @@
+h2 {
+    font-size: 40px;
+    font-family: 'raleway', sans-serif;
+    position: absolute;
+    top:110px;
+    left: 50px;
+}
+
+.form-wrapper {
+    position: absolute;
+    top: 200px;
+}
+
+#email {
+    width: 250px;
+    /* Change the width */
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 10px;
+    /* Inner spacing */
+    border: 2px solid black;
+    /* Light border */
+    font-family: 'Raleway', sans-serif;
+    /* Optional: Apply Raleway font */
+    box-shadow: 1.5px 1px;
+    height: 30px;
+    position: absolute;
+    top: 210px;
+    left: 340px;
+}
+
+input::placeholder {
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+#candidate {
+    width: 200px;
+    border-radius: 10px;
+    padding: 8px;
+    border: 2px solid black;
+    box-shadow: 1.5px 1px;
+}
+.nasra-pic{
+    position: absolute;
+    top: 0.5px;
+    left: 390px;
+}
+#choose{
+    position: absolute;
+    top: 300px;
+}
+.vote-section {
+    margin: 20px 0;
+  }
+
+  .boy-vote {
+    position: absolute;
+    top: 270px;
+    right: 200px;
+  }
+
+  .girl-vote {
+    position: absolute;/* Yeh center karega sirf girl section ko */
+    top: 270px;
+    left: 160px;
+  }
+
+  select {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid black;
+  }
+#submit{
+    position: absolute;
+    top: 400px;
+    left: 415px;
+    width: 8rem;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1.5px 2px;
+    font-size: 16px;
+}
+label{
+    font-size: 20px;
+}
+

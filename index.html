@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voting Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h2 class="votes">Vote for a Candidate Of Class 6-A For Prefect</h2>
+  <form id="voteForm">
+    <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Boy Vote Section -->
+    <div class="vote-section boy-vote">
+      <label for="boyVote">Choose a Boy:</label>
+      <select id="boyVote" required>
+        <option value="">Select a Boy</option>
+        <option value="Ahmed">Ahmed</option>
+        <option value="Bilal">Bilal</option>
+        <option value="haseeb">haseeb</option>
+        <option value="Ateeb">Ateeb</option>
+      </select>
+    </div>
+
+    <br>
+
+    <!-- Girl Vote Section -->
+    <div class="vote-section girl-vote">
+      <label for="girlVote">Choose a Girl:</label>
+      <select id="girlVote" required>
+        <option value="">Select a Girl</option>
+        <option value="Ayesha">Ayesha</option>
+        <option value="Sana">Sana</option>
+        <option value="Manahil">Manahil</option>
+        <option value="Alishba">Alishba</option>
+      </select>
+    </div>
+
+    <button type="submit" id="submit">Submit Vote</button>
+  </form>
+
+  <img src="https://i-care-foundation.org/wp-content/uploads/2024/12/education-trust-nasra-schools-logo.png" alt="" width="170" height="170" class="nasra-pic">
+  
+  <p id="message"></p>
+
+  <!-- ✅ Linking external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
